@@ -70,8 +70,17 @@ body {
 }
 
 .search-container button {
-    color: var(--blue-2);
-    background-color: var(--white);
-    border-radius: 0.3em;
+  color: var(--blue-2);
+  background-color: var(--white);
+  border-radius: 0.3em;
+}
 
+.error {
+  color: rgb(196, 12, 12);
+  margin: 2rem;
+}
+
+.errorNow {
+  margin: 2rem 0 2rem 0;
+  color: rgb(4, 4, 70);
 }
